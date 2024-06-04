@@ -1,0 +1,1095 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -172.3,
+    "scrollLeft": -506,
+    "zoomLevel": 0.9,
+    "show": 431,
+    "database": 16,
+    "databaseName": "mental_health",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "Yn7lQcZ_12o5SVYMkwUlV",
+      "16-DEO6EDtnSTWsoq7aa7",
+      "q9zhjvrpUgLwLDBEp6iDq",
+      "i0xEnRUvbxlBLPoiX4UeX"
+    ],
+    "relationshipIds": [
+      "THLQotQo-qgUrd8z41uBc",
+      "aV2lNetArt7_FVHJUDhan",
+      "3RPzeOJ-D2nEr4_y0dps3"
+    ],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "Yn7lQcZ_12o5SVYMkwUlV": {
+        "id": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "anxiety_treatment_gap",
+        "comment": "Breakdown of anxiety patients treatment gap",
+        "columnIds": [
+          "BBg99h3FJaH93XHfoCbEm",
+          "06RBqeI6jIWjYDptNNm2x",
+          "L2zmZH-obwZoOHJLPRq3z",
+          "dyFMYiVaJ67ca9mxmw0AW",
+          "2HpcYOTRKHEe5st11lSzF",
+          "8q03778bccZOMrx8Jl1OY"
+        ],
+        "seqColumnIds": [
+          "BBg99h3FJaH93XHfoCbEm",
+          "06RBqeI6jIWjYDptNNm2x",
+          "L2zmZH-obwZoOHJLPRq3z",
+          "dyFMYiVaJ67ca9mxmw0AW",
+          "2HpcYOTRKHEe5st11lSzF",
+          "8q03778bccZOMrx8Jl1OY",
+          "e5TF1Yafi-ny3QYZoDOVp"
+        ],
+        "ui": {
+          "x": 108,
+          "y": 541,
+          "zIndex": 65,
+          "widthName": 132,
+          "widthComment": 256,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1715790980084,
+          "createAt": 1715790022943
+        }
+      },
+      "16-DEO6EDtnSTWsoq7aa7": {
+        "id": "16-DEO6EDtnSTWsoq7aa7",
+        "name": "entity_year_index",
+        "comment": "Master table for unique entities and years",
+        "columnIds": [
+          "Tfy3eNFpcU80tlvNDLgbY",
+          "cuXE36bUzeV5Zg9Ituho4"
+        ],
+        "seqColumnIds": [
+          "Tfy3eNFpcU80tlvNDLgbY",
+          "cuXE36bUzeV5Zg9Ituho4"
+        ],
+        "ui": {
+          "x": 792,
+          "y": 589,
+          "zIndex": 48,
+          "widthName": 101,
+          "widthComment": 237,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1715790525458,
+          "createAt": 1715790022943
+        }
+      },
+      "q9zhjvrpUgLwLDBEp6iDq": {
+        "id": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "prevalence",
+        "comment": "Prevalence of mental illnesses in percentage",
+        "columnIds": [
+          "U3d5wYggSOHJ5t9BFA-e6",
+          "SShQ19SyF6cz14QRUWwlj",
+          "rD6x_TKEIzN8xLF6WJWGa",
+          "2KufzHqw9qXTBl_rzmgpb",
+          "KtmmrPcn6THksmiwSostS",
+          "zDdXrtPajNSe429k45uY3",
+          "sw3D9JJApFK-ad3Y6gR1C",
+          "ZeXDoAvTT7biSS3xew_z9"
+        ],
+        "seqColumnIds": [
+          "U3d5wYggSOHJ5t9BFA-e6",
+          "SShQ19SyF6cz14QRUWwlj",
+          "rD6x_TKEIzN8xLF6WJWGa",
+          "2KufzHqw9qXTBl_rzmgpb",
+          "KtmmrPcn6THksmiwSostS",
+          "zDdXrtPajNSe429k45uY3",
+          "sw3D9JJApFK-ad3Y6gR1C",
+          "ZeXDoAvTT7biSS3xew_z9",
+          "vu2Ye3_F4N0W55yJlbqg-"
+        ],
+        "ui": {
+          "x": 753,
+          "y": 186,
+          "zIndex": 81,
+          "widthName": 64,
+          "widthComment": 253,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1715791199725,
+          "createAt": 1715790022943
+        }
+      },
+      "i0xEnRUvbxlBLPoiX4UeX": {
+        "id": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "burden",
+        "comment": "Disability-Adjusted Life Years (DALYS) from each mental illness",
+        "columnIds": [
+          "M4nIfCfbMO7Ai9iwmv_Y6",
+          "IARBr0G7eXjsAYZ01QiBE",
+          "dbJMt7HK1DCKdqZwdyovF",
+          "JufMCyeUJ8rhJFzWiSx47",
+          "QrCWVkGnTf80aBcnzl76x",
+          "nmVyJc1WINa8BNrzqOsGn",
+          "tEyfD7krQZ7W3aJsHO8ww",
+          "byXHau4Ivf34tX9QK2Ic8"
+        ],
+        "seqColumnIds": [
+          "M4nIfCfbMO7Ai9iwmv_Y6",
+          "IARBr0G7eXjsAYZ01QiBE",
+          "dbJMt7HK1DCKdqZwdyovF",
+          "JufMCyeUJ8rhJFzWiSx47",
+          "QrCWVkGnTf80aBcnzl76x",
+          "nmVyJc1WINa8BNrzqOsGn",
+          "tEyfD7krQZ7W3aJsHO8ww",
+          "byXHau4Ivf34tX9QK2Ic8",
+          "rXRqR-pv4AqN2Oix7xE3w"
+        ],
+        "ui": {
+          "x": 1431,
+          "y": 517,
+          "zIndex": 67,
+          "widthName": 60,
+          "widthComment": 358,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1715791049058,
+          "createAt": 1715790022943
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "BBg99h3FJaH93XHfoCbEm": {
+        "id": "BBg99h3FJaH93XHfoCbEm",
+        "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "entity",
+        "comment": "Name of a country or region",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 160,
+          "widthDataType": 90,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790451518,
+          "createAt": 1715790022943
+        }
+      },
+      "L2zmZH-obwZoOHJLPRq3z": {
+        "id": "L2zmZH-obwZoOHJLPRq3z",
+        "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "code",
+        "comment": "ISO country code",
+        "dataType": "VARCHAR(10)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 100,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790465465,
+          "createAt": 1715790022943
+        }
+      },
+      "06RBqeI6jIWjYDptNNm2x": {
+        "id": "06RBqeI6jIWjYDptNNm2x",
+        "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "year",
+        "comment": "4 digit year",
+        "dataType": "INT",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 66,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790458831,
+          "createAt": 1715790022943
+        }
+      },
+      "dyFMYiVaJ67ca9mxmw0AW": {
+        "id": "dyFMYiVaJ67ca9mxmw0AW",
+        "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "adequate_treat",
+        "comment": "Percentage of anxiety patients",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 88,
+          "widthComment": 174,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790472167,
+          "createAt": 1715790022943
+        }
+      },
+      "2HpcYOTRKHEe5st11lSzF": {
+        "id": "2HpcYOTRKHEe5st11lSzF",
+        "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "other_treat",
+        "comment": "Percentage of anxiety patients",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 65,
+          "widthComment": 174,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790473022,
+          "createAt": 1715790022943
+        }
+      },
+      "8q03778bccZOMrx8Jl1OY": {
+        "id": "8q03778bccZOMrx8Jl1OY",
+        "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "untreated",
+        "comment": "Percentage of anxiety patients",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 174,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790474101,
+          "createAt": 1715790022943
+        }
+      },
+      "e5TF1Yafi-ny3QYZoDOVp": {
+        "id": "e5TF1Yafi-ny3QYZoDOVp",
+        "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+        "name": "--",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790022943,
+          "createAt": 1715790022943
+        }
+      },
+      "Tfy3eNFpcU80tlvNDLgbY": {
+        "id": "Tfy3eNFpcU80tlvNDLgbY",
+        "tableId": "16-DEO6EDtnSTWsoq7aa7",
+        "name": "entity",
+        "comment": "Name of a country or region",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 160,
+          "widthDataType": 90,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790480373,
+          "createAt": 1715790022943
+        }
+      },
+      "cuXE36bUzeV5Zg9Ituho4": {
+        "id": "cuXE36bUzeV5Zg9Ituho4",
+        "tableId": "16-DEO6EDtnSTWsoq7aa7",
+        "name": "year",
+        "comment": "4 digit year",
+        "dataType": "INT",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 66,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790525934,
+          "createAt": 1715790022943
+        }
+      },
+      "U3d5wYggSOHJ5t9BFA-e6": {
+        "id": "U3d5wYggSOHJ5t9BFA-e6",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "entity",
+        "comment": "Name of a country or region",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 160,
+          "widthDataType": 90,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790479018,
+          "createAt": 1715790022943
+        }
+      },
+      "rD6x_TKEIzN8xLF6WJWGa": {
+        "id": "rD6x_TKEIzN8xLF6WJWGa",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "code",
+        "comment": "",
+        "dataType": "VARCHAR(10)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790022943,
+          "createAt": 1715790022943
+        }
+      },
+      "SShQ19SyF6cz14QRUWwlj": {
+        "id": "SShQ19SyF6cz14QRUWwlj",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "year",
+        "comment": "4 digit year",
+        "dataType": "INT",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 66,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790523913,
+          "createAt": 1715790022943
+        }
+      },
+      "2KufzHqw9qXTBl_rzmgpb": {
+        "id": "2KufzHqw9qXTBl_rzmgpb",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "schi",
+        "comment": "Schizophrenia prevalence in percentage",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 228,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715791155339,
+          "createAt": 1715790022943
+        }
+      },
+      "KtmmrPcn6THksmiwSostS": {
+        "id": "KtmmrPcn6THksmiwSostS",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "depr",
+        "comment": "Depression prevalence in percentage",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 212,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715791160038,
+          "createAt": 1715790022943
+        }
+      },
+      "zDdXrtPajNSe429k45uY3": {
+        "id": "zDdXrtPajNSe429k45uY3",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "anxi",
+        "comment": "Anxiety prevalence in percentage",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 190,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715791165098,
+          "createAt": 1715790022943
+        }
+      },
+      "sw3D9JJApFK-ad3Y6gR1C": {
+        "id": "sw3D9JJApFK-ad3Y6gR1C",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "bipo",
+        "comment": "Bipolar disorder prevalence in percentage",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 238,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715791175231,
+          "createAt": 1715790022943
+        }
+      },
+      "ZeXDoAvTT7biSS3xew_z9": {
+        "id": "ZeXDoAvTT7biSS3xew_z9",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "eati",
+        "comment": "Eating disorder prevalence in percentage",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 234,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715791181793,
+          "createAt": 1715790022943
+        }
+      },
+      "vu2Ye3_F4N0W55yJlbqg-": {
+        "id": "vu2Ye3_F4N0W55yJlbqg-",
+        "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+        "name": "--",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790022943,
+          "createAt": 1715790022943
+        }
+      },
+      "M4nIfCfbMO7Ai9iwmv_Y6": {
+        "id": "M4nIfCfbMO7Ai9iwmv_Y6",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "entity",
+        "comment": "Name of a country or region",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 160,
+          "widthDataType": 90,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790483178,
+          "createAt": 1715790022943
+        }
+      },
+      "dbJMt7HK1DCKdqZwdyovF": {
+        "id": "dbJMt7HK1DCKdqZwdyovF",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "code",
+        "comment": "ISO country code",
+        "dataType": "VARCHAR(10)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 100,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790493233,
+          "createAt": 1715790022943
+        }
+      },
+      "IARBr0G7eXjsAYZ01QiBE": {
+        "id": "IARBr0G7eXjsAYZ01QiBE",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "year",
+        "comment": "4 digit year",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 66,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790487766,
+          "createAt": 1715790022943
+        }
+      },
+      "JufMCyeUJ8rhJFzWiSx47": {
+        "id": "JufMCyeUJ8rhJFzWiSx47",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "depr",
+        "comment": "Total DALYs from depression",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 164,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790932937,
+          "createAt": 1715790022943
+        }
+      },
+      "QrCWVkGnTf80aBcnzl76x": {
+        "id": "QrCWVkGnTf80aBcnzl76x",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "schi",
+        "comment": "Total DALYs from schizophrenia",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 180,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790939364,
+          "createAt": 1715790022943
+        }
+      },
+      "nmVyJc1WINa8BNrzqOsGn": {
+        "id": "nmVyJc1WINa8BNrzqOsGn",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "bipo",
+        "comment": "Total DALYs from bipolar disorder",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 191,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790948157,
+          "createAt": 1715790022943
+        }
+      },
+      "tEyfD7krQZ7W3aJsHO8ww": {
+        "id": "tEyfD7krQZ7W3aJsHO8ww",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "eati",
+        "comment": "Total DALYs from eating disorders",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 193,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790954089,
+          "createAt": 1715790022943
+        }
+      },
+      "byXHau4Ivf34tX9QK2Ic8": {
+        "id": "byXHau4Ivf34tX9QK2Ic8",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "anxi",
+        "comment": "Total DALYs from anxiety disorders",
+        "dataType": "DOUBLE",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 198,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790966653,
+          "createAt": 1715790022943
+        }
+      },
+      "rXRqR-pv4AqN2Oix7xE3w": {
+        "id": "rXRqR-pv4AqN2Oix7xE3w",
+        "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+        "name": "--",
+        "comment": "",
+        "dataType": "year",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715790022943,
+          "createAt": 1715790022943
+        }
+      }
+    },
+    "relationshipEntities": {
+      "THLQotQo-qgUrd8z41uBc": {
+        "id": "THLQotQo-qgUrd8z41uBc",
+        "identification": true,
+        "relationshipType": 8,
+        "startRelationshipType": 1,
+        "start": {
+          "tableId": "16-DEO6EDtnSTWsoq7aa7",
+          "columnIds": [
+            "Tfy3eNFpcU80tlvNDLgbY",
+            "cuXE36bUzeV5Zg9Ituho4"
+          ],
+          "x": 792,
+          "y": 641,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "Yn7lQcZ_12o5SVYMkwUlV",
+          "columnIds": [
+            "BBg99h3FJaH93XHfoCbEm",
+            "06RBqeI6jIWjYDptNNm2x"
+          ],
+          "x": 645,
+          "y": 641,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1715790061887,
+          "createAt": 1715790022944
+        }
+      },
+      "aV2lNetArt7_FVHJUDhan": {
+        "id": "aV2lNetArt7_FVHJUDhan",
+        "identification": true,
+        "relationshipType": 8,
+        "startRelationshipType": 1,
+        "start": {
+          "tableId": "16-DEO6EDtnSTWsoq7aa7",
+          "columnIds": [
+            "Tfy3eNFpcU80tlvNDLgbY",
+            "cuXE36bUzeV5Zg9Ituho4"
+          ],
+          "x": 1039.5,
+          "y": 589,
+          "direction": 4
+        },
+        "end": {
+          "tableId": "q9zhjvrpUgLwLDBEp6iDq",
+          "columnIds": [
+            "U3d5wYggSOHJ5t9BFA-e6",
+            "SShQ19SyF6cz14QRUWwlj"
+          ],
+          "x": 1039.5,
+          "y": 434,
+          "direction": 8
+        },
+        "meta": {
+          "updateAt": 1715790059015,
+          "createAt": 1715790022944
+        }
+      },
+      "3RPzeOJ-D2nEr4_y0dps3": {
+        "id": "3RPzeOJ-D2nEr4_y0dps3",
+        "identification": true,
+        "relationshipType": 8,
+        "startRelationshipType": 1,
+        "start": {
+          "tableId": "16-DEO6EDtnSTWsoq7aa7",
+          "columnIds": [
+            "Tfy3eNFpcU80tlvNDLgbY",
+            "cuXE36bUzeV5Zg9Ituho4"
+          ],
+          "x": 1287,
+          "y": 641,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "i0xEnRUvbxlBLPoiX4UeX",
+          "columnIds": [
+            "M4nIfCfbMO7Ai9iwmv_Y6",
+            "IARBr0G7eXjsAYZ01QiBE"
+          ],
+          "x": 1431,
+          "y": 641,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1715790056061,
+          "createAt": 1715790022944
+        }
+      }
+    },
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "3RPzeOJ-D2nEr4_y0dps3": [
+      "relationshipEntities",
+      -1,
+      -1,
+      {
+        "relationshipType": 1715790056060
+      }
+    ],
+    "aV2lNetArt7_FVHJUDhan": [
+      "relationshipEntities",
+      -1,
+      -1,
+      {
+        "relationshipType": 1715790059014
+      }
+    ],
+    "THLQotQo-qgUrd8z41uBc": [
+      "relationshipEntities",
+      -1,
+      -1,
+      {
+        "relationshipType": 1715790061886
+      }
+    ],
+    "rXRqR-pv4AqN2Oix7xE3w": [
+      "tableColumnEntities",
+      -1,
+      1715790069012,
+      {}
+    ],
+    "e5TF1Yafi-ny3QYZoDOVp": [
+      "tableColumnEntities",
+      -1,
+      1715790071202,
+      {}
+    ],
+    "vu2Ye3_F4N0W55yJlbqg-": [
+      "tableColumnEntities",
+      -1,
+      1715790072341,
+      {}
+    ],
+    "Yn7lQcZ_12o5SVYMkwUlV": [
+      "tableEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790442270
+      }
+    ],
+    "BBg99h3FJaH93XHfoCbEm": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790451517
+      }
+    ],
+    "06RBqeI6jIWjYDptNNm2x": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790458831
+      }
+    ],
+    "L2zmZH-obwZoOHJLPRq3z": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790465465
+      }
+    ],
+    "dyFMYiVaJ67ca9mxmw0AW": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790472167
+      }
+    ],
+    "2HpcYOTRKHEe5st11lSzF": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790473021
+      }
+    ],
+    "8q03778bccZOMrx8Jl1OY": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790474101
+      }
+    ],
+    "U3d5wYggSOHJ5t9BFA-e6": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790479018
+      }
+    ],
+    "Tfy3eNFpcU80tlvNDLgbY": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790480372
+      }
+    ],
+    "M4nIfCfbMO7Ai9iwmv_Y6": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790483177
+      }
+    ],
+    "IARBr0G7eXjsAYZ01QiBE": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790487766
+      }
+    ],
+    "dbJMt7HK1DCKdqZwdyovF": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790493233
+      }
+    ],
+    "16-DEO6EDtnSTWsoq7aa7": [
+      "tableEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790518331
+      }
+    ],
+    "SShQ19SyF6cz14QRUWwlj": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790523912
+      }
+    ],
+    "cuXE36bUzeV5Zg9Ituho4": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790525934
+      }
+    ],
+    "JufMCyeUJ8rhJFzWiSx47": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790932936
+      }
+    ],
+    "QrCWVkGnTf80aBcnzl76x": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790939363
+      }
+    ],
+    "nmVyJc1WINa8BNrzqOsGn": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790948156
+      }
+    ],
+    "tEyfD7krQZ7W3aJsHO8ww": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715790954089
+      }
+    ],
+    "byXHau4Ivf34tX9QK2Ic8": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "name": 1715790959648,
+        "dataType": 1715790959648,
+        "options(notNull)": 1715790959648,
+        "default": 1715790959648,
+        "comment": 1715790966653
+      }
+    ],
+    "i0xEnRUvbxlBLPoiX4UeX": [
+      "tableEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715791049056
+      }
+    ],
+    "2KufzHqw9qXTBl_rzmgpb": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715791155339
+      }
+    ],
+    "KtmmrPcn6THksmiwSostS": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715791160038
+      }
+    ],
+    "zDdXrtPajNSe429k45uY3": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715791165098
+      }
+    ],
+    "sw3D9JJApFK-ad3Y6gR1C": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715791175231
+      }
+    ],
+    "ZeXDoAvTT7biSS3xew_z9": [
+      "tableColumnEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715791181792
+      }
+    ],
+    "q9zhjvrpUgLwLDBEp6iDq": [
+      "tableEntities",
+      -1,
+      -1,
+      {
+        "comment": 1715791199724
+      }
+    ],
+    "settings.databaseName": [
+      "settings",
+      -1,
+      -1,
+      {
+        "databaseName": 1715791307277
+      }
+    ]
+  }
+}
